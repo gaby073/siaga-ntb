@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:siaga_ntb/pages/home.dart';
+import 'package:siaga_ntb/pages/nomor_penting.dart';
+import 'package:siaga_ntb/routes/page_route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,15 +12,18 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        textTheme: GoogleFonts.poppinsTextTheme(
+          Theme.of(context).textTheme,
+        ),
       ),
       home: const Home(),
+      initialRoute: '/',
+      getPages: PageRoutes.pages,
     );
   }
 }
