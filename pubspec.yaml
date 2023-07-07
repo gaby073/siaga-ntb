@@ -65,7 +65,16 @@ flutter:
   assets:
     - assets/awan.png
     - assets/awan2.png
+    - assets/awan3.png
+    - assets/card.png
     - assets/icons/call.png
+    - assets/icons/peta.png
+    - assets/icons/warning.png
+    - assets/icons/gallery.png
+    - assets/icons/weather.png
+    - assets/icons/info.png
+    - assets/icons/call2.png
+
 
 
   #   - images/a_dot_ham.jpeg
