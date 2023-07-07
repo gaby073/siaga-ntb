@@ -15,27 +15,46 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.only(top: 24, left: 24, right: 24),
-          child: Column(
-            children: [
-              head(),
-              SizedBox(height: 24),
-              CardCuaca(),
-              Container(
-                height: 100,
-                width: double.infinity,
-                color: Color(0xFFFCFAFA),
-                //create decoration for container shadow opacity 0.15, blur 10, y 5
-
-                child: Column(
-                  children: [],
-                ),
+          child: Padding(
+        padding: const EdgeInsets.only(top: 24, left: 24, right: 24),
+        child: Column(
+          children: [
+            head(),
+            SizedBox(height: 24),
+            CardCuaca(),
+            SizedBox(height: 24),
+            Padding(
+              padding: const EdgeInsets.only(left: 16.0, right: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  IconMenu('assets/icons/call.png', RouteName.BeritaScreen,
+                      "Nomor\nPenting"),
+                  IconMenu('assets/icons/peta.png', RouteName.BeritaScreen,
+                      "Peta Lokasi\nPenting"),
+                  IconMenu('assets/icons/info.png', RouteName.BeritaScreen,
+                      "Edukasi\nBencana"),
+                ],
               ),
-            ],
-          ),
+            ),
+            SizedBox(height: 24),
+            Padding(
+              padding: const EdgeInsets.only(left: 16.0, right: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  IconMenu('assets/icons/gallery.png', RouteName.BeritaScreen,
+                      "Galeri"),
+                  IconMenu('assets/icons/warning.png', RouteName.BeritaScreen,
+                      "Peta Laporkan\nBencana"),
+                  IconMenu('assets/icons/weather.png', RouteName.BeritaScreen,
+                      "Info\nCuaca"),
+                ],
+              ),
+            ),
+          ],
         ),
-      ),
+      )),
     );
   }
 }
