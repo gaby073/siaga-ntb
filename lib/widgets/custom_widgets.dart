@@ -118,11 +118,11 @@ Container IconMenu(String gambar, String routeName, String text) {
             Get.toNamed(routeName);
           },
           child: Container(
-            height: 40,
-            width: 40,
+            height: 32,
+            width: 32,
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage(gambar), fit: BoxFit.cover)),
+                    image: AssetImage(gambar), fit: BoxFit.fill)),
           ),
         ),
         Text(
