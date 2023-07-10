@@ -2,6 +2,7 @@ import 'package:get/get.dart';
 import 'package:siaga_ntb/routes/route_name.dart';
 
 import '../pages/berita.dart';
+import '../pages/edukasi_bencana.dart';
 import '../pages/home.dart';
 import '../pages/nomor_penting.dart';
 
@@ -17,7 +18,11 @@ class PageRoutes {
     ),
     GetPage(
       name: RouteName.NomorPentingScreen,
-      page: () => const NomorPenting(),
+      page: () => NomorPenting(),
+    ),
+    GetPage(
+      name: RouteName.EdukasiBencanaScreen,
+      page: () => EdukasiBencana(),
     ),
   ];
 }
