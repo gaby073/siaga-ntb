@@ -4,4 +4,6 @@ class RouteName {
   static String BeritaScreen = '/berita';
   static String NomorPentingScreen = '/nomor-penting';
   static String EdukasiBencanaScreen = '/edukasi-bencana';
+  static String DetailBeritaScreen = '/detail-berita';
+  static String PetaLokasiScreen = '/peta-lokasi';
 }

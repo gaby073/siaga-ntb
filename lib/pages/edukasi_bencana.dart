@@ -33,7 +33,7 @@ class EdukasiBencana extends StatelessWidget {
                 //create icon button picture from assets
                 IconButton(
                   onPressed: () {
-                    // Get.put();ss
+                    Navigator.pop(context);
                   },
                   icon: ImageIcon(
                     AssetImage("assets/icons_2/arrow.png"),
@@ -60,7 +60,7 @@ class EdukasiBencana extends StatelessWidget {
                 color: Colors.white),
             height: MediaQuery.of(context).size.height - 84,
             child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10),
+              padding: const EdgeInsets.symmetric(vertical: 0),
               child: ListView.builder(
                   itemCount: bencana.length,
                   shrinkWrap: true,
@@ -87,7 +87,7 @@ class EdukasiBencana extends StatelessWidget {
                               child: Row(children: [
                                 //icon button from asset
                                 ImageIcon(
-                                  AssetImage("assets/icons_2/info.png"),
+                                  AssetImage("assets/icons_2/info2.png"),
                                   size: 32,
                                   color: ColorConstants.PrimaryCo,
                                 ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
+import '../constant.dart';
 import '../models/list_nomor.dart';
 
 class NomorPenting extends StatelessWidget {
@@ -31,9 +32,10 @@ class NomorPenting extends StatelessWidget {
                 Text(
                   'Nomor Penting',
                   style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.white),
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: ColorConstants.BgCo,
+                  ),
                 ),
               ],
             ),
@@ -42,10 +44,10 @@ class NomorPenting extends StatelessWidget {
 
           Container(
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(20),
-                    topRight: Radius.circular(20)),
-                color: Colors.white),
+              borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20), topRight: Radius.circular(20)),
+              color: ColorConstants.BgCo,
+            ),
             height: MediaQuery.of(context).size.height - 84,
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 8),
@@ -68,10 +70,10 @@ class NomorPenting extends StatelessWidget {
                       child: Card(
                         elevation: 0,
                         child: ListTile(
-                          leading: Icon(
-                            Icons.phone,
-                            color: Colors.blue,
+                          leading: ImageIcon(
+                            AssetImage('assets/icons_2/call.png'),
                             size: 30,
+                            color: ColorConstants.PrimaryCo,
                           ),
                           title: Text(TitleNomor[index],
                               style: TextStyle(

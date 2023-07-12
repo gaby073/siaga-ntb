@@ -99,7 +99,7 @@ Column head() {
             icon: Icon(
               Icons.notifications_none_outlined,
               //color from hex
-              color: ColorConstants.PrimaryCo,
+              color: Colors.white,
               size: 32,
             ),
           ),
