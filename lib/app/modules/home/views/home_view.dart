@@ -114,14 +114,20 @@ class HomeView extends GetView<HomeController> {
         ),
 
         //Create floating button
-        floatingActionButton: Container(
-          child: FloatingActionButton(
-            onPressed: () {
-              Get.toNamed(Routes.LAPOR_BENCANA);
-            },
-            child: Icon(Icons.add),
-            backgroundColor: ColorConstants.OrangeCo,
+        floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {
+            Get.toNamed(Routes.LAPOR_BENCANA);
+          },
+          icon: ImageIcon(AssetImage('assets/icons_3/danger.png')),
+          label: Text(
+            'Lapor Bencana',
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w500,
+              color: ColorConstants.WhiteCo,
+            ),
           ),
+          backgroundColor: ColorConstants.OrangeCo,
         ),
       ),
     );
