@@ -45,7 +45,7 @@ class DetailBerita extends StatelessWidget {
             Container(
               height: MediaQuery.of(context).size.height - 90,
               decoration: BoxDecoration(
-                color: ColorConstants.,
+                color: ColorConstants.BgCo,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(20),
                   topRight: Radius.circular(20),
