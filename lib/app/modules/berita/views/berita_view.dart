@@ -61,6 +61,7 @@ class BeritaView extends GetView<BeritaController> {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 24, right: 24, top: 24),
                   child: ListView.builder(
+                    physics: NeverScrollableScrollPhysics(),
                     scrollDirection: Axis.vertical,
                     itemCount: ListBerita.length,
                     shrinkWrap: true,
