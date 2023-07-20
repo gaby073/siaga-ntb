@@ -39,5 +39,5 @@ The SIAGA NTB project was developed by a team of interns as part of their practi
 ### [Mohammad Yoga Pratama](https://github.com/mpratama17)
 - Email: [yogmhmmd17@gmail.com]
 
-### [Hikmatul Maulidia Putri]((https://github.com/hikmah1)
+### [Hikmatul Maulidia Putri](https://github.com/hikmah1)
 - Email: [hikmaulidia17@gmail.com]
