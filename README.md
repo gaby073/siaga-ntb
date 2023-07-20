@@ -36,8 +36,8 @@ Hopefully this project will benefit the community and help in disaster managemen
 ## Developer Information
 The SIAGA NTB project was developed by a team of interns as part of their practical activities at KOMINFOTIK NTB. This development team consists of:
 
-### [Mohammad Yoga Pratama](githu)
+### [Mohammad Yoga Pratama](https://github.com/mpratama17)
 - Email: [yogmhmmd17@gmail.com]
 
-### [Hikmatul Maulidia Putri]([link_github_pengembang2](https://github.com/hikmah1))
+### [Hikmatul Maulidia Putri]((https://github.com/hikmah1)
 - Email: [hikmaulidia17@gmail.com]
