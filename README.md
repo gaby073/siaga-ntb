@@ -1,6 +1,6 @@
 # SIAGA NTB - Aplikasi Sistem Informasi Penanggulangan Bencana
 
-![UI SIAGA NTB](link_gambar_logo)
+![UI SIAGA NTB](https://github.com/mpratama17/siaga-ntb/blob/main/Post%201080x1350.png)
 
 ## Deskripsi
 
